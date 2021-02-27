@@ -14,6 +14,7 @@ public class Main {
 		zoo.AdaugareAnimal(a2);
 		
 		zoo.hranireAnimale();
+		zoo.mutareAnimale();
 	}
 
 }

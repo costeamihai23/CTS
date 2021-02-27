@@ -7,5 +7,8 @@ public class Girafa extends Animal {
 	{
 		super(nume);
 	}
+	public void merge() {
+		System.out.println("Girafa merge cu capul pe sus");
+	}
 	
 }
