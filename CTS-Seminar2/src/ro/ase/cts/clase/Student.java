@@ -2,9 +2,10 @@ package ro.ase.cts.clase;
 
 import java.util.Arrays;
 
-public class Student extends Aplicant {
+public abstract class Student extends Aplicant {
 	protected String facultate;
 	protected int an_studii;
+	private static int sumaFinantata=20;
 	
 	
 	public String getFacultate() {
@@ -37,10 +38,8 @@ public class Student extends Aplicant {
 	}
 	
 	
-	public int finantare() {
-		int s=20;
-		System.out.println("Studentul "+getNume()+" "+getPrenume()+" primeste"+s+" Euro/zi in proiect.");
-		return s;
-	}
-	
+	public void afisareSumaFinantata() {
+		
+		System.out.println(super.compunereStringPentruSumaFinantata(this.sumaFinantata, "Studentul"));
+	};
 }

@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Angajat extends Aplicant{
 	private String ocupatie;
 	private int salariu;
+	private static int sumaFinantata=10;
 	
 	public String getOcupatie() {
 		return ocupatie;
@@ -42,6 +43,10 @@ public class Angajat extends Aplicant{
 		// TODO Auto-generated method stub
 		System.out.println("Angajatul "+getNume()+" "+getPrenume()+" primeste"+s+" Euro/zi in proiect.");
 		return s;
+	}
+	
+	public void afisareSumaFinantata() {
+		System.out.println(super.compunereStringPentruSumaFinantata(this.sumaFinantata, "Angajatul"));
 	}
 	
 }
