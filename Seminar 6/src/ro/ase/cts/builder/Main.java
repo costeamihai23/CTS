@@ -11,12 +11,11 @@ public class Main {
 		System.out.println(r2);
 		System.out.println(r3);
 		
-		RezervareBuilderV2 b2=new RezervareBuilderV2();
-		b2.setAreMancareInclusa(true);
-		RezervareBuilderV2 b3=new RezervareBuilderV2().setCodRezervare(4);
+		RezervareBuilderV2 builder=new RezervareBuilderV2();
+		builder.setAreMancareInclusa(true);
+		Rezervare r4=builder.setCodRezervare(4).build();
 		
-		System.out.println(b2);
-		System.out.println(b3);
+		System.out.println(r4);
 		
 	}
 }
