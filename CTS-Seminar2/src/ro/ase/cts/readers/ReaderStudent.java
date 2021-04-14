@@ -34,8 +34,8 @@ public class ReaderStudent extends ReaderAplicanti {
 				vect[i] = input.next();
 			int an_studii = input.nextInt();
 			String facultate = (input.next()).toString();
-			Student s = new Student(nume, prenume, varsta, punctaj, nr, vect, facultate, an_studii);
-			studenti.add(s);
+		//	Student s = new Student(nume, prenume, varsta, punctaj, nr, vect, facultate, an_studii);
+		//	studenti.add(s);
 		}
 		input.close();
 		return studenti;

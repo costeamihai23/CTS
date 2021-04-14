@@ -34,8 +34,8 @@ public class ReaderElevi extends ReaderAplicanti {
 				vect[i] = input2.next();
 			int clasa = input2.nextInt();
 			String tutore = input2.next();
-			Elev e = new Elev(nume, prenume, varsta, punctaj, nr, vect, clasa, tutore);
-			elevi.add(e);
+		//	Elev e = new Elev(nume, prenume, varsta, punctaj, nr, vect, clasa, tutore);
+			//elevi.add(e);
 		}
 
 		input2.close();
