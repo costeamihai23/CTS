@@ -34,7 +34,7 @@ public class Card implements CardAbstract {
 		System.out.println("S-a realizat plata online:"+suma);
 		}
 	}
-
+//
 	@Override
 	public void realizeazaPlataNormala(int suma) {
 		if(suma>0) {
