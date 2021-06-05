@@ -45,10 +45,10 @@ public class Grupa {
         for(IStudent student:studenti){
             if(student.areRestante()){
                 nrRestantieri++;
-            }
+            }}if(nrRestantieri==0) {
             return (studenti.size()-nrRestantieri)/(float)studenti.size();
         }
-        return studenti.size();
+        return (studenti.size()-nrRestantieri)/(float)studenti.size();
     }
     
     
